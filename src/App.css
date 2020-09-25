@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -5,6 +6,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#btn {
+  display: inline-block;
+  background:"orange";
+  width:"4%";
+  padding:"5px";
+  color:"white";
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +35,11 @@
 .App-link {
   color: #61dafb;
 }
+.link{
+  text-decoration: none;
+  text-align: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+
